@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+  width: 100%;
+
+  font-family: "Verdana", sans-serif;
+}
+
+  #banner{
+top:1em;
+left:1em;
+
+width:90%;
+height:5em;
+
+background-color:lightsteelblue;
+border:thin navy;
+
+text-align:center;
+
+position: absolute;
+
+border:1px solid black;
+}
+    #navpanel{
+top:8em;
+left:1em;
+
+width:15em;
+
+background-color:lightsteelblue;
+border:thin navy;
+
+position: absolute;
+
+padding-left:2em;
+
+border:1px solid black;
+
+}
+
+    #content{
+top:8em;
+left:20em;
+
+width:64.5%;
+
+background-color:lightsteelblue;
+border:thin navy;
+
+position: absolute;
+
+padding-left:1em;
+padding-top:1.5em;
+
+border:1px solid black;
+}
+
+

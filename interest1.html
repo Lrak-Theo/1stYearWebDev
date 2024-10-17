@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  
+<style>
+  body {
+  background-image: url('hanami-amaama-to-inazuma-02.jpg');
+  background-size: 100% 100%;
+}
+  #panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+  #panel {
+  padding: 50px;
+  display: none;
+}
+  
+  #panel2, #flip2 {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+    #panel2 {
+  padding: 50px;
+  display: none;
+}
+
+  #panel3, #flip3 {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+    #panel3 {
+  padding: 50px;
+  display: none;
+}
+</style>
+
+<script>
+  $(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+
+  $(document).ready(function(){
+  $("#flip2").click(function(){
+    $("#panel2").slideToggle("slow");
+  });
+});
+
+    $(document).ready(function(){
+  $("#flip3").click(function(){
+    $("#panel3").slideToggle("slow");
+  });
+});
+</script>
+  
+<body>
+
+<div id="smallbanner">
+ <h1 align="center"><u><b>Interests</b></u></h1>
+</div>
+
+  <hr />
+  
+  <div id="flip">Main Hobbies</div>
+
+  <div id="panel"> My interests are broad but I do have preferences.
+
+  <p align="center">During my free time, I like <b>listening to music</b> and discovering new artists and genres. A great advantage is, <br />in turn, finding new music makes me revved up for workouts (or doing something productive in general).</p>
+
+  <table>
+    <tr>
+      <img src="NWA.jpg" alt="nwa" style="width:300px;height:300px;"> 
+      <img src="mario64.jpg" alt="mario" style="width:300px;height:300px;">
+      <img src="Beatles.jpg" alt="btls" style="width:300px;height:300px;">
+      <img src="animalcrossing.jpg" alt="dos2" style="width:300px;height:300px;">
+      <img src="Slipknot.jpg" alt="sk" style="width:300px;height:300px;">
+      <img src="draingang.jpg" alt="dg" style="width:300px;height:300px;">
+    </tr>
+  </table>
+
+  <p align="center">Although not often, <b>I do play some games.</b> Mainly I play games that isn't fast paced, for example Animal Crossing, Divinity Original Sin 2 or Mario. I love to do <b>calisthenics</b> as a good workout.</p>
+
+  </div>
+  
+   <hr />
+    
+  <div id="flip2">Sports</div>
+
+  <div id="panel2">
+    <table>
+      <tr>
+        <img src="giannais.jpg" style="width:400px; height:300px;">
+        <img src="chuck.jpg" style="width:400px; height:300px;">
+        <img src="Lobcity.jpg" style="width:400px; height:300px;">
+        <img src="Miami heat.jpg" style="width:400px; height:300px;">
+      </tr>
+    </table>
+
+  <p>I watch the <b>NBA</b> and play some <b>basketball.</b> I have a bias towards Milwaukee Bucks and Chicago Bulls for the Eastern Division. For the Western Division it would have to be either the LA Clippers or Phoenix Suns. My favourite player would probably be Dwayne Wayde.</p>
+    
+  </div>
+
+  <hr />
+  
+  <div id="flip3">Travel</div>
+
+  <div id="panel3">
+  <p>I have travelled to countries like Italy, England, Austria and Philippines before. I plan on travelling during easter or summer holidays again with my family. In the future I want to travel to Japan or Australia.</p>
+
+  </div>
+  
+
+  <script src="script.js">
+  </script>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
+  
+<style type="text/css">
+      #MainBlock{
+top:2em;
+left:1em;
+
+width:95%;
+height:95%;
+
+background-color:lavender;
+
+position: absolute;
+text-align: center
+
+}
+
+#panel, #flip { 
+  padding: 5px;
+  text-align: center;
+  background-color: #F0EACB;
+  border: solid 1px #F2E6EF;
+}
+
+#panel {
+
+  padding: 50px;
+  display: none;
+}
+</style>
+
+</head>
+  <body style="background-color:lavender;">
+
+<body>
+    <div id="MainBlock">
+      <h1><u>Animals</u></h1>
+      <p>I also like animals. I have two dobermans, a cat and a cockapoo. I enjoy going to zoos and safaris to see the daily lives of the animals.</p>
+
+    <div id="flip">Click to see my pets</div>
+    <div id="panel">
+          <table>
+      <tr>
+        <img src="Francesca.jpg" style="width:300px; height: 200px;">
+
+        <br />
+        <img src="Sam.jpeg" style="width:200px; height: 200px;">
+
+        <br />
+        <img src="Bart.png" style="width:150px; height:200px;">
+
+        <br />
+        <img src="Theo.png" style="width:200px; height:200px;">
+      </tr>
+    </table>
+    </div>
+
+      
+    </div>
+
+  <script src="script.js">
+  </script>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
